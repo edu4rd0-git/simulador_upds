@@ -117,6 +117,9 @@ function cargarPreguntas() {
         case "programacion1":
             questions = [...programacion1];
             break;   
+        case "automoviles":
+            questions = [...automoviles];
+            break;  
 
         case "general":
             questions = [
@@ -125,6 +128,7 @@ function cargarPreguntas() {
                 ...economicas,
                 ...tecnologicas,
                 ...programacion1,
+                ...automoviles,
                 
             ];
             break;
